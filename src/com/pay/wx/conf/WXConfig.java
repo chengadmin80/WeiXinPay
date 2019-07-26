@@ -25,7 +25,7 @@ public class WXConfig {
     //商城订单号  
     public static String out_trade_no="";  
     //币种  
-    public static String fee_type="CNY";  
+    public static String fee_type="CNY";
     //交易金额（为分）例如12.53 应该（12.53*100） 放入当前值  
     public static int total_fee=0;  
     //客户IP  
