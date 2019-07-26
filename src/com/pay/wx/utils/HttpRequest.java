@@ -1,4 +1,4 @@
-package com.pay.wx.http;
+package com.pay.wx.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

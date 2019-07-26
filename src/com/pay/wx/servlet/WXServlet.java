@@ -1,4 +1,4 @@
-package com.pay.wx.utils;
+package com.pay.wx.servlet;
 
 import java.io.IOException;
 import java.util.SortedMap;
@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.pay.wx.conf.WXConfig;
-import com.pay.wx.http.HttpRequest;
+import com.pay.wx.utils.HttpRequest;
+import com.pay.wx.utils.WXCommonUtil;
 
 /**
  * Servlet implementation class WXServlet
