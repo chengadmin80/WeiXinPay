@@ -2,11 +2,11 @@ package com.pay.wx.conf;
 
 public class WXConfig {
 	public static String KEY="";//API密钥 
-    //网关  
+    //统一下单接口链接 URL地址 
     public static final String GATEWAYURL ="https://api.mch.weixin.qq.com/pay/unifiedorder"; 
-    //公众号ID  
+    //应用ID
     public static String appid="";
-    //公众账号ID  
+    //商户号
     public static String mch_id="";
     //设备号  
     public static String device_info="";
@@ -39,9 +39,9 @@ public class WXConfig {
     //微信回调接口（重要）  
     public static String notify_url="";  
     //支付交易类型  
-    public static String trade_type="NATIVE";  
+    public static String trade_type="APP";//网页：NATIVE
     //支付订单号  
-    public static String product_id="";  
+    public static String product_id="";
     //指定支付方式是否限定用户用户信用卡 (这个可以空着)  
     public static String limit_pay="";  
     //扫描支付不需要可以空着  
